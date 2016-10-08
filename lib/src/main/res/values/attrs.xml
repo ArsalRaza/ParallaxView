@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ParallaxHeightListView">
+        <attr name="minimum_item_height" format="dimension"/>
+        <attr name="maximum_item_height" format="dimension"/>
+        <attr name="anim_duration" format="integer"/>
+    </declare-styleable>
+</resources>

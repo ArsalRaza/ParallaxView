@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:arsal="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <sa.parallax.lib.ParallaxListView
+        android:id="@+id/custom_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        arsal:minimum_item_height="200dp"
+        arsal:maximum_item_height="350dp"
+        arsal:anim_duration="200">
+    </sa.parallax.lib.ParallaxListView>
+</LinearLayout>
